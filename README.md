@@ -2,8 +2,8 @@
 - Integrated PaddleOCR - For improved OCR capabilities.
 
 To know more about the original repository refer to the readme and documentation available at: </br>
-[Docling Github Repo](https://github.com/DS4SD/docling)
-[Docling Documentation](https://ds4sd.github.io/docling/)
+- [Docling Github Repo](https://github.com/DS4SD/docling)
+- [Docling Documentation](https://ds4sd.github.io/docling/)
 
 ## PaddleOCR Usage - Demo:
 ```python
