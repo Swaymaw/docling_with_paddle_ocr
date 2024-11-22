@@ -14,7 +14,7 @@ from docling.datamodel.pipeline_options import PdfPipelineOptions, TableFormerMo
 pipeline_options = PdfPipelineOptions(do_table_structure=True, generate_page_images=True, images_scale=2.0)
 pipeline_options.table_structure_options.mode = TableFormerMode.ACCURATE  # use more accurate TableFormer model
 pipeline_options.table_structure_options = TableStructureOptions(do_cell_matching=True)
-pipeline_options.ocr_options = PaddleOcrOptions(lang="en")
+pipeline_options.ocr_options = PaddleOcrOptions(lang=["en"])
 
 doc_converter = DocumentConverter(
     format_options={
